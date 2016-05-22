@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.pjaygroup.concurrency.reentrantlock.app1;
+package org.pjaygroup.concurrency.reentrantlock.app3;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;

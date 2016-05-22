@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.pjaygroup.concurrency.reentrantlock.app1;
+package org.pjaygroup.concurrency.reentrantlock.app3;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Logger;
