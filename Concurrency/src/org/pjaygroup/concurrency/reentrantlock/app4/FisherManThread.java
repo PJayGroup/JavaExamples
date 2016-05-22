@@ -17,7 +17,6 @@ public class FisherManThread implements Runnable{
 	private static final Logger LOGGER = Logger.getLogger(CLASS_NAME);// Change level to log enter and exit details from logger 
 	
 	public FisherManThread() {
-		threadLocalRandom = ThreadLocalRandom.current();
 	}
 
 	@Override
@@ -25,6 +24,7 @@ public class FisherManThread implements Runnable{
 		LOGGER.entering(CLASS_NAME, "entering run()");
 		boolean fishesLock = false;
 		int randomNumber;
+		threadLocalRandom = ThreadLocalRandom.current();
 		for(int i=1;i<=10000;i++){
 			try {
 				fishesLock = FishTank.getLockOnNumberOfFishes().tryLock();

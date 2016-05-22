@@ -22,8 +22,8 @@ public class DeadLockThread2 implements Runnable{
 	@Override
 	public void run() {
 		while(true){
-			boolean acqLock1 = lock1.tryLock();
 			boolean acqLock2 = lock2.tryLock();
+			boolean acqLock1 = lock1.tryLock();
 			try {
 				if(acqLock1 && acqLock2){
 					System.out.println("Thread :: " + Thread.currentThread().getName() + " acquired both lock1 and lock2");
