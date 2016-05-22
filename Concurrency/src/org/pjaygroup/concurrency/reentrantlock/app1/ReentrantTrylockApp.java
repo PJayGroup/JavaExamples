@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.pjaygroup.concurrency.reentrantlock;
+package org.pjaygroup.concurrency.reentrantlock.app1;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
