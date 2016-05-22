@@ -4,7 +4,6 @@
 package org.pjaygroup.concurrency.reentrantlock.app3;
 
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 /**
