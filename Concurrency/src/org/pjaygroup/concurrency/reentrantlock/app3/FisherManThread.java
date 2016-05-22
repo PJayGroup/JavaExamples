@@ -1,9 +1,10 @@
 /**
  * 
  */
-package org.pjaygroup.concurrency.reentrantlock.app1;
+package org.pjaygroup.concurrency.reentrantlock.app3;
 
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 /**
@@ -28,6 +29,7 @@ public class FisherManThread implements Runnable{
 		for(int i=1;i<=10000;i++){
 			try {
 				fishesLock = FishTank.getLockOnNumberOfFishes().tryLock();
+				// If you have an use case that needs to trylock after certain interval you can use. "tryLock(2, TimeUnit.SECONDS);"
 				if(!fishesLock){
 					cleanFishTank();
 				}else{
