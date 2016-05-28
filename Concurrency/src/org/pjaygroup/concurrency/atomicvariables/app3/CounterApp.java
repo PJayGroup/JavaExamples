@@ -4,7 +4,7 @@
 package org.pjaygroup.concurrency.atomicvariables.app3;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class CounterApp {

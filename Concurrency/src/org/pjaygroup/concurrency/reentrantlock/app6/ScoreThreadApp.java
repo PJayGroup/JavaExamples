@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  * @source https://dzone.com/articles/java-concurrency-read-write-lo
  * According to above link. Read Write Access are given as below.
  * Read Access - If no threads are writing, and no threads have requested write access.

@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class ReentrantTrylockApp {

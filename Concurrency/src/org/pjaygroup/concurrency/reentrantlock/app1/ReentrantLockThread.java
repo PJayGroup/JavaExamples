@@ -6,7 +6,7 @@ package org.pjaygroup.concurrency.reentrantlock.app1;
 import java.util.concurrent.locks.Lock;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class ReentrantLockThread implements Runnable{

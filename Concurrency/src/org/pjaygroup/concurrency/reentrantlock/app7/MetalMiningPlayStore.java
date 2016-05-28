@@ -6,7 +6,7 @@ package org.pjaygroup.concurrency.reentrantlock.app7;
 import java.util.Scanner;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class MetalMiningPlayStore implements Runnable {

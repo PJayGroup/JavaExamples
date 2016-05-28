@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class EvenAndOddPrintReentrantLockConditionApp {

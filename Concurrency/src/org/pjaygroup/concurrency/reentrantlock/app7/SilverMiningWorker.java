@@ -6,7 +6,7 @@ package org.pjaygroup.concurrency.reentrantlock.app7;
 import java.util.logging.Logger;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class SilverMiningWorker implements Runnable{

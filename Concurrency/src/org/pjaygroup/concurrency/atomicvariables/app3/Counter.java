@@ -6,7 +6,7 @@ package org.pjaygroup.concurrency.atomicvariables.app3;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class Counter {

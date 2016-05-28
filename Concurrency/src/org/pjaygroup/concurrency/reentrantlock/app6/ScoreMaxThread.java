@@ -4,7 +4,7 @@
 package org.pjaygroup.concurrency.reentrantlock.app6;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class ScoreMaxThread implements Runnable{
