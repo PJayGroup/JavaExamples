@@ -11,7 +11,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class ThreadSafeArrayList{

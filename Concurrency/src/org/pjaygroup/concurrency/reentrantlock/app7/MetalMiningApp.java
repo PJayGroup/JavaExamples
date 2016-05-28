@@ -4,7 +4,7 @@
 package org.pjaygroup.concurrency.reentrantlock.app7;
 
 /**
- * @author Vijay
+ * @author Vijay Konduru
  *
  */
 public class MetalMiningApp {
